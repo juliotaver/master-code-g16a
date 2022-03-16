@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <p>Nombre:</p> <br>
+        <input type="text" name="nombre"><br>
+        <p>Apellido:</p>
+        <input type="text" name="apellido"><br>
+        <p>Contraseña</p>
+        <input type="password" name="contraseña"><br>
+        <input type="submit" value="enviar"><br>
+        <input type="reset">
+    </form>
+
+
+    <form action="">
+        <input type="radio" name="hombre" value="hombre" checked> Hombre <br>
+        <input type="radio" name="hombre" value="mujer"> Mujer <br>
+        <input type="checkbox" name="pera" value="fruta"> tengo una pera <br>
+        <input type="button" onclick="alert('Hola mundo!')" value="haz click!">
+        <p>mi cumpleaños</p> <hr>
+        <input type="date" name="cumpleaños">
+    </form>
+
+
+    <form class="formulario">
+        <select name="lista">
+            <option>Cereal</option>
+            <option>Frutas</option>
+            <option>Leche</option>
+            <option>Papel</option>
+            <option selected>Frijol</option>
+            <option>Azucar</option>
+        </select>
+    </form>
+
+    <form>
+        <textarea name="poema" cols="30" rows="10" readonly wrap="soft">
+            introduzca un poema
+        </textarea>
+
+        <input type="color">
+    </form>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ut ducimus culpa quos placeat temporibus incidunt nulla pariatur neque modi in, officiis error officia distinctio architecto. Ipsum deserunt saepe ex.</p>
+    <iframe src="./index.html" style="width: 100%;"></iframe>
+
+</body>
+</html>

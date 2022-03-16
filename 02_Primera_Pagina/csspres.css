@@ -1,0 +1,18 @@
+.nombre {
+    background-color: green;
+    text-align: center;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.fotojulio {
+    max-width: 400px;
+    margin-left: 30%;
+    border: 20px black solid;
+}
+
+.info {
+    text-align: center;
+}
