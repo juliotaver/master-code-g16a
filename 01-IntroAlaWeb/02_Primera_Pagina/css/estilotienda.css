@@ -1,0 +1,28 @@
+.titulo-tienda {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+body {
+    background-color: rgb(133, 211, 235);
+}
+.imagentienda {
+    width: 500px;
+    height: 300px;
+    margin-left: 400px;
+    border: 10px solid black;
+    
+}
+.nuestrahistoria {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.textohistoria {
+    color: white;
+    background-color: black;
+}
+.nave {
+    background-color: beige;
+    color: black;
+}
