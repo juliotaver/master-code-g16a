@@ -1,0 +1,33 @@
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px 0;
+    width: 100vw;
+    font-size: 2rem;
+}
+.container-funciones {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    height: 86vh;
+    background-image: url( '/img/waves.svg' );
+    background-size: cover;
+}
+.texto-opcion {
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+.container-botones button {
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.tarjetas-svg {
+    width: 150px;
+    margin-left: 60px;
+}
